@@ -56,7 +56,8 @@ function Start-PSBuild {
                      "win7-x64",
                      "win81-x64",
                      "win10-x64",
-                     "osx.10.11-x64")]
+                     "osx.10.11-x64"
+                     "fedora.23-x64")]
         [Parameter(ParameterSetName='CoreCLR')]
         [string]$Runtime,
 
@@ -387,7 +388,8 @@ function New-PSOptions {
                      "win7-x64",
                      "win81-x64",
                      "win10-x64",
-                     "osx.10.11-x64")]
+                     "osx.10.11-x64"
+                     "fedora.23-x64")]
         [string]$Runtime,
 
         [switch]$Publish,
